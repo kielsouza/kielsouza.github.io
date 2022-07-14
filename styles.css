@@ -1,22 +1,36 @@
+#background{
+    background: rgb(210,6,140);
+    background: linear-gradient(13deg, rgba(210,6,140,0.7693452380952381) 0%, rgba(0,212,255,0.8085609243697479) 98%);
+}
 #container{
     position: relative;
+    background-color: aliceblue;
+    margin-left: 15%;
+    margin-right: 15%;
+    -webkit-box-shadow: 0px 2px 36px 5px rgba(0,0,0,0.95); 
+    box-shadow: 0px 2px 36px 5px rgba(0,0,0,0.95);
 }
 #divNome{
     display: flex;
     justify-content: center;
 }
 #kiel{
-    font-size: 95px;
+    font-size: 100px;
     font-family: 'Nunito', sans-serif;
     margin-right: 10px;
+    color: rgb(56, 56, 56);
 }
 #souza{
     font-size: 100px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background: -webkit-linear-gradient(130deg, rgba(210,6,140,1) 7%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #divFoto{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 #foto{
     border-radius: 50%;
@@ -24,16 +38,33 @@
 #resFoto{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 #resPessoal{
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 #habilidades{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
 #habilidades h3{
     margin-right: 20px;
+}
+#links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#badgeLinkedIn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#indice{
+    display: flex;
+    justify-content: center;
 }

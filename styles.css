@@ -1,0 +1,39 @@
+#container{
+    position: relative;
+}
+#divNome{
+    display: flex;
+    justify-content: center;
+}
+#kiel{
+    font-size: 95px;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 10px;
+}
+#souza{
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+#divFoto{
+    display: flex;
+    justify-content: center;
+}
+#foto{
+    border-radius: 50%;
+}
+#resFoto{
+    display: flex;
+    justify-content: center;
+}
+#resPessoal{
+    display: flex;
+    justify-content: center;
+}
+#habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#habilidades h3{
+    margin-right: 20px;
+}

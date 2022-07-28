@@ -1,74 +1,71 @@
-#background{
-    background: rgb(210,6,140);
-    background: linear-gradient(13deg, rgba(210,6,140,0.7693452380952381) 0%, rgba(0,212,255,0.8085609243697479) 98%);
+body {
+    margin: 0;
 }
-#container{
-    position: relative;
-    background-color: aliceblue;
-    margin-left: 15%;
-    margin-right: 15%;
-    -webkit-box-shadow: 0px 2px 36px 5px rgba(0,0,0,0.95); 
-    box-shadow: 0px 2px 36px 5px rgba(0,0,0,0.95);
+#header {
+    height: 70px;
+    background: rgb(90, 90, 90);
 }
-#divNome{
+#headerElementsLeft {
+    float: left;
+}
+#headerElementsLeft p{
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: 7px;
+    color: aliceblue;
+}
+#headerElementsRight {
+    float: right;
+    display: flex;
+    margin-right: 20px;
+}
+#headerElementsRight p{
+    margin-right: 30px;
+    font-size: 25px;
+    margin-top: 16px;
+    color: aliceblue;
+}
+#page1 {
+    background: black;
+    width: 100%;
+    height:100%;
+}
+#imgPage1 {
+    width: 700px;
+    padding-top: 94px;
+}
+#contentPage1 {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    background: black;
 }
-#kiel{
-    font-size: 100px;
-    font-family: 'Nunito', sans-serif;
-    margin-right: 10px;
-    color: rgb(56, 56, 56);
-}
-#souza{
-    font-size: 100px;
-    font-family: 'Nunito', sans-serif;
-    background: -webkit-linear-gradient(130deg, rgba(210,6,140,1) 7%, rgba(0,212,255,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#divFoto{
+#title{
     display: flex;
+    color:aliceblue;
     justify-content: center;
-    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
 }
-#foto{
-    border-radius: 50%;
-}
-#resFoto{
+#title2{
     display: flex;
+    color:aliceblue;
     justify-content: center;
-    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
 }
-#resPessoal{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 62px;
-    text-align: center;
-    margin: auto;
-    width: 900px;
+#titleKiel {
+    font-size: 111px;
 }
-#habilidades{
-    display: block;
-    text-align: center;
-    text-align-last: center;
-    padding-bottom: 62px;
+#titleFront {
+    font-size: 40px;
 }
-#links{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 62px;
-}
-#badgeLinkedIn{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 62px;
-    text-align-last: center;
-    text-align: center;
-}
-#indice{
-    display: block;
-    text-align: center;
-    text-align-last: center;
-    padding-bottom: 100px;
+#downArrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
